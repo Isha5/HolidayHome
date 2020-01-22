@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.py-1{ padding: 30px 0;}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+h1 {
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 10px;
+}
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-prim {
+    background-color: burlywood;
+    color: #333;
+}
+.bg-sec {
+    display: inline-block;
+    background-color: #0b53a7;
+    color: #fff;
+}
+.btn-prim {
+    display: inline-block;
+    background-color: burlywood;
+    padding: 10px 15px;
+}
+.btn {
+    display: inline-block;
+    background-color: #333;
+    padding: 10px 15px;
+}
+.container {
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 15px;;
+}
+               /*NAV--BAR */
+#navbar {
+    background-color: rgb(20, 19, 19);
+    color: #fff;
+    overflow: auto;
+    position: sticky;
+    top:0;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current
+ {
+    background-color: rgb(37, 34, 34);
+}
+
+
+/*SECTION*/
+
+#show {
+    background: #333 url('../img/villa.jpg') no-repeat center center/cover;
+    height: 500px;
+    text-align: center;
+    opacity: rgba(0,0,0,0.3);
+    z-index: 1;
+}
+
+#show .lead {
+    font-size: 50px;
+    color: burlywood;
+    padding-top: 100px;
+}
+#show p {
+    color: #fff;
+    margin: 10px 15px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/*SECTION*/
+
+#home-info {
+    height: 400px;
+}
+#home-info .home-img {
+    float: left;
+    background: url('../img/outview.jpg') no-repeat;
+    width: 50%;
+    min-height: 100%;
+}
+#home-info .home-text {
+    float: right;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 18px;
+    line-height: 27px;
+}
+/*FEATURES*/
+
+.box {
+    float: left;
+    width: 33%;
+    overflow: auto;
+    text-align: center;
+    padding: 50px;
+}
+.box p {
+    margin-top: 20px;
+}
+.clr {
+    clear: both;
+}
+
+#foot {
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+/*ABOUT PAGE*/
+#about-info .info-text {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-img {
+    float: right;
+    width: 50%;
+}
+#about-info .info-img img {
+    display: block;
+    width: 70%;
+    min-height: 100%;
+    overflow: auto;
+    border-radius: 50%;
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
+#about-info .info-text h1,
+#about-info .info-text p {
+    padding-left: 15px;
+}
+/*TESTIMONIAL SECTION*/
+#test {
+    background:  url('../img/tback.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+#test .testimonial {
+    margin-left: 20px;
+   padding: 20px;
+   margin-bottom: 40px;
+   display: inline-block;
+   width: 1000px;
+   opacity: 0.7;
+   z-index: 2;
+}
+#test h1 {
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+#test .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+#test .testimonial p {
+   text-align: justify;
+}
